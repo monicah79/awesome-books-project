@@ -16,7 +16,8 @@ function deleteFromLocalStorage(id) {
   let arr = localStorage.getItem('pdfs') ? JSON.parse(localStorage.getItem('pdfs')) : [];
 
   arr = arr.filter((textbk) => {
-    if (textbk.id !== id) {
+    if (textbk.id === id) {
+      console.log(textbk.id)
       return textbk;
     }
     return false;
@@ -42,7 +43,7 @@ form.addEventListener('submit', (e) => {
     const pdfs = {};
     pdfs.title = title.value;
     pdfs.author = author.value;
-    pdfs.id = id;
+   
 
     container.appendChild(book);
     title.value = '';
@@ -86,7 +87,7 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         const book = e.target.parentElement;
-        // const id = book.dataset;
+       
         container.removeChild(book);
       });
     });
