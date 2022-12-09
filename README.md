@@ -38,7 +38,10 @@ clone repository
 
 - LinkedIn: [https://www.linkedin.com/in/monica-wanjema-079192193/](https://linkedin.com/in/monica-wanjema-079192193)
 
+👤 **Nezerwa Eligrand**
+- GitHub: [@Nezerwa](https://github.com/Nezerwa)
 
+- LinkedIn: [https://www.linkedin.com/in/eligrand nezerwa](https://linkedin.com/in/eligrand)
 
 ## 🤝 Contributing
 
