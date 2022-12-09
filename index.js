@@ -25,14 +25,15 @@ form.addEventListener('submit', (e) => {
 
     container.appendChild(book);
 
-    const removeBtn = document.querySelector('.remove-btn');
+    const removeBtn = book.querySelector('.btn-remove');
     removeBtn.addEventListener('click', (e) => {
-    //   e.preventDefault()
-
+      e.preventDefault()
+    
       const book = e.target.parentElement;
       //   const id = book.dataset;
 
       container.removeChild(book);
     });
+    console.log(removeBtn);
   }
 });
