@@ -17,7 +17,6 @@ function deleteFromLocalStorage(id) {
 
   arr = arr.filter((textbk) => {
     if (textbk.id === id) {
-      console.log(textbk.id)
       return textbk;
     }
     return false;
@@ -43,7 +42,6 @@ form.addEventListener('submit', (e) => {
     const pdfs = {};
     pdfs.title = title.value;
     pdfs.author = author.value;
-   
 
     container.appendChild(book);
     title.value = '';
@@ -87,7 +85,7 @@ window.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         const book = e.target.parentElement;
-       
+
         container.removeChild(book);
       });
     });
