@@ -1,4 +1,3 @@
-
 class Book {
   constructor(id, title, author) {
     this.id = id;
