@@ -4,16 +4,67 @@
   padding: 0;
 }
 
+.body-head {
+  width: 90%;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.body-nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.book-1 {
+  font-size: 35px;
+  text-decoration: none;
+  color: #000;
+}
+
+.book-lists {
+  display: flex;
+  list-style: none;
+}
+
+.lala {
+  text-decoration: none;
+  color: #000;
+  border-right: 1px solid black;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.li-li {
+  color: dodgerblue;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.date {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
 .heading {
   font-size: 35px;
   text-align: center;
 }
 
 .main-container {
-  width: 60%;
+  width: 90%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 15px;
   margin: 50px auto 0 auto;
+  margin-bottom: 28%;
 }
 
 .form {
@@ -67,4 +118,41 @@ button {
 input {
   padding: 2px;
   border: 2px solid #000;
+}
+
+.contact-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact-h {
+  text-align: center;
+}
+
+.contact-p {
+  margin: 0 auto;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.contact-ul {
+  margin: 0 auto;
+  width: 30%;
+  padding-left: 70px;
+}
+
+.copy {
+  width: 90%;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }

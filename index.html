@@ -11,12 +11,25 @@
 </head>
 
 <body>
+    <header class="body-head">
+        <nav class="body-nav">
+            <a class="book-1" href="">Awesome Books</a>
+            <ul class="book-lists">
+                <li class="li"><a class="lala" href="">List</a></li>
+                <li class="li"><a class="lala" href="">Add new</a></li>
+                <li class="li"><a class="li-li" href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="date">
+        <p>March 19th 2021, 9:23:34am</p>
+    </div>
     <section class="main-container">
         <div class="container">
             <h1 class="heading">All Awesome Books</h1>
             <div class="books"></div>
         </div>
-        <div class="added-book container">
+        <div class="added-book container hide">
             <form class="form">
                 <h3>Add a new book</h3>
                 <input type="text" name="title" placeholder="Title" id="title" required />
@@ -25,6 +38,20 @@
             </form>
         </div>
     </section>
+    <section class="contact-section hide">
+        <h2 class="contact-h">Contact Information</h2>
+        <p class="contact-p">Do have any question or just want to say "hello"? <br>
+          You can reach out us!
+        </p>
+        <ul class="contact-ul">
+            <li>Our e-mail: mail@mail.com</li>
+            <li>Our Phone number: 0043586534422</li>
+            <li>Our address: Streetname22, 84503 City, Country</li>
+        </ul>
+    </section>
+    <footer>
+      <p class="copy">Copyright</p>
+    </footer>
 
     <script src="./index.js"></script>
 </body>
