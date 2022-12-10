@@ -23,7 +23,7 @@
   color: #000;
 }
 
-.cont-se{
+.cont-se {
   margin-bottom: 28%;
 }
 
@@ -68,7 +68,6 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 15px;
   margin: 50px auto 0 auto;
-  /* margin-bottom: 28%; */
 }
 
 .form {
