@@ -1,58 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Books</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Awesome Book</title>
 </head>
+
 <body>
-    <section class="books-section">
-        <h1 class="heading">AWESOME BOOKS</h1>
-         <div class="books-li">
-            <!-- <div class="the-book">
-             <ul class="list-unstyled">
-                <li class="titles">Lorem ipsum</li>
-                <li class="book-author">Testeroo Testyy</li>
-            </ul>
-            <button class="btn-remove">Remove</button>
-            </div>
-
-            <hr>
-
-            <div class="the-book">
-                <ul class="list-unstyled">
-                    <li class="tittles">second book</li>
-                    <li class="book-author">Testeroo Testyy</li>
-                    
-                </ul>
-                <button class="btn-remove">Remove</button> -->
-
-               
-            </div>
-            <hr> 
-            </div>
-     
-    </section>
-    <form id="form">
-        <div>
-          <div>
-          <label for="title"></label>
-          <input type="name" required id="title" name="title" placeholder="title" >
-          </div>
-          <div>
-           <label for="Author"></label>
-           <input type="name" required id="author" name="author" placeholder="author" >
-          </div>
-        <div>
-          <button id="add-btn" type="submit">
-             Add
-          </button>
-          <span></span>
+    <section class="main-container">
+        <div class="container">
+            <h1 class="heading">All Awesome Books</h1>
+            <div class="books"></div>
         </div>
-</form>
-<script src="index.js"></script>
+        <div class="added-book container">
+            <form class="form">
+                <h3>Add a new book</h3>
+                <input type="text" name="title" placeholder="Title" id="title" required />
+                <input type="text" name="author" placeholder="Author" id="author" required />
+                <input type="submit" value="Add" id="add-btn" />
+            </form>
+        </div>
+    </section>
+
+    <script src="./index.js"></script>
 </body>
+
 </html>
