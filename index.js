@@ -10,7 +10,7 @@ let booksList = JSON.parse(localStorage.getItem('book')) || [];
 
 const books = document.querySelector('.books');
 
-// function to get books from localStorage
+//  get books from localStorage
 const getBooks = () => {
   const storageData = localStorage.getItem('books');
   if (storageData === undefined || storageData === null) {
@@ -30,7 +30,7 @@ const getBooks = () => {
     .join('');
 };
 
-// remove book from books collections
+// function to remove book from books collections
 const removeBook = (id) => {
   if (id === null) return;
   const newBooks = booksList.filter((book) => book.id !== id);
