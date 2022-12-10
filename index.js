@@ -39,7 +39,7 @@ const removeBook = (id) => {
 };
 
 // to add book from books collection
-const booksForm = document.querySelector('.new-book-form');
+const booksForm = document.querySelector('.form');
 booksForm.addEventListener('submit', (event) => {
   event.preventDefault();
   const title = document.getElementById('title').value;
