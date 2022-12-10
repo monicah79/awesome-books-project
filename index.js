@@ -57,3 +57,43 @@ window.addEventListener('load', () => {
   getBooks();
   removeBook(null);
 });
+
+const li = document.querySelector('.li')
+const liA = document.querySelector('.li-a')
+const lb = document.querySelector('.li-b')
+const contact = document.querySelector('.contact-section')
+const container = document.querySelector('.container')
+const can = document.querySelector('.cont-se')
+const date = document.querySelector('.time')
+
+
+liA.addEventListener('click', (e)=>{
+  e.preventDefault()
+  
+  container.classList.add('show')
+  can.classList.add('hide')
+  contact.classList.add('hide')
+  contact.classList.remove('show')
+})
+
+lb.addEventListener('click', (e)=>{
+  e.preventDefault()
+  contact.classList.add('show')
+  container.classList.add('hide')
+  can.classList.add('hide')
+  container.classList.remove('show')
+})
+
+const myDate = new Date()
+const options = {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  hour: 'numeric',
+  minute: 'numeric',
+  second: 'numeric',
+}
+let dateString = myDate.toLocaleString('en-US', options)
+date.innerHTML= dateString
+console.log(myDate)
+

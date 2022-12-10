@@ -23,6 +23,10 @@
   color: #000;
 }
 
+.cont-se{
+  margin-bottom: 28%;
+}
+
 .book-lists {
   display: flex;
   list-style: none;
@@ -64,7 +68,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 15px;
   margin: 50px auto 0 auto;
-  margin-bottom: 28%;
+  /* margin-bottom: 28%; */
 }
 
 .form {
@@ -78,6 +82,7 @@
 
 .container {
   width: 100%;
+  margin-bottom: 28%;
 }
 
 .books {
@@ -123,6 +128,7 @@ input {
 .contact-section {
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 28%;
 }
 
 .contact-h {
